@@ -119,6 +119,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &99390911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 99390912}
+  - component: {fileID: 99390913}
+  m_Layer: 0
+  m_Name: EyesGizmo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99390912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99390911}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1569168589862206644}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &99390913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99390911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1382872388, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SALSA-LipSync.dll::CrazyMinnow.SALSA.EyeGizmo
+  inspStateFoldoutSettings: 1
+  showGizmo: 1
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +478,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137383739312548275 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+  m_PrefabInstance: {fileID: 4995379924091011777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1569168589862206644 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3989076158750249410, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+  m_PrefabInstance: {fileID: 4995379924091011777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2562103950333594459 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5777849760598900555, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+  m_PrefabInstance: {fileID: 4995379924091011777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4266555352291074041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7796529073119784089, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+  m_PrefabInstance: {fileID: 4995379924091011777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!137 &4979917825698533206 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
@@ -445,6 +511,158 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_Quality
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.0014915057
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.65070486
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.04956884
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.095406994
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.1906116
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.12907451
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[0]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[1]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[2]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[3]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[4]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[5]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[6]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[9]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[17]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[18]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[23]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[25]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[26]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[29]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[30]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[31]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[32]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[34]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[36]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[46]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[48]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[49]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[50]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[52]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[54]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[55]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[63]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[65]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149701597561024851, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[66]'
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: emoter
       value: 
@@ -455,7 +673,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: inspStateFoldoutSettings
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: inspStateFoldoutProcessing
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].trigger
@@ -463,11 +689,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].trigger
-      value: 0.21000002
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].trigger
-      value: 0.21000002
+      value: 0.011
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[3].trigger
@@ -495,11 +721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.name
-      value: pp/mm/bb
+      value: Round (O / U sounds)
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.name
-      value: pp/mm/bb
+      value: Closed (M / B / P sounds)
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[3].expData.name
@@ -554,16 +780,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: visemes.Array.data[0].expData.previewDisplayMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: visemes.Array.data[1].expData.previewDisplayMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: visemes.Array.data[2].expData.previewDisplayMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.components.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.size
@@ -587,15 +825,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.size
@@ -635,7 +873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[3].name
-      value: mouthPressRight
+      value: viseme_E_T
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[4].frac
@@ -687,15 +925,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[0].name
-      value: viseme_PP
+      value: viseme_O
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[1].name
-      value: mouthClose
+      value: viseme_U
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[2].name
-      value: mouthPressLeft
+      value: mouthPucker
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[3].frac
@@ -703,7 +941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[3].name
-      value: mouthPressRight
+      value: viseme_O_T
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[4].frac
@@ -711,7 +949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[4].name
-      value: mouthLowerDownLeft
+      value: viseme_U_T
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[5].frac
@@ -767,7 +1005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.components.Array.data[2].name
-      value: mouthPressLeft
+      value: viseme_PP_T
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.components.Array.data[3].frac
@@ -1244,7 +1482,7 @@ PrefabInstance:
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[3].smr
       value: 
-      objectReference: {fileID: 4979917825698533206}
+      objectReference: {fileID: 137383739312548275}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[4].smr
       value: 
@@ -1275,7 +1513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[1].enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[3].enabled
@@ -1308,11 +1546,11 @@ PrefabInstance:
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[3].smr
       value: 
-      objectReference: {fileID: 4979917825698533206}
+      objectReference: {fileID: 137383739312548275}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[4].smr
       value: 
-      objectReference: {fileID: 4979917825698533206}
+      objectReference: {fileID: 137383739312548275}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[5].smr
       value: 
@@ -1339,7 +1577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.components.Array.data[1].enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.components.Array.data[2].enabled
@@ -1376,7 +1614,7 @@ PrefabInstance:
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[2].smr
       value: 
-      objectReference: {fileID: 4979917825698533206}
+      objectReference: {fileID: 137383739312548275}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[3].smr
       value: 
@@ -1719,7 +1957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[0].inspFoldout
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[10].durationOn
@@ -1727,11 +1965,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[1].inspFoldout
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[2].inspFoldout
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[3].durationOff
@@ -1891,7 +2129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[0].inspFoldout
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[10].durationOn
@@ -1899,7 +2137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[1].inspFoldout
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[2].inspFoldout
@@ -2611,7 +2849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[0].minShape
-      value: 0.005
+      value: 0.0025
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[10].fracPos
@@ -2631,7 +2869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[1].maxShape
-      value: 0.0025
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[1].minShape
@@ -2639,11 +2877,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[2].maxShape
-      value: 0.0025
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[3].maxShape
-      value: 0.01
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[4].maxShape
@@ -2682,6 +2920,10 @@ PrefabInstance:
       value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[0].minShape
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[10].fracPos
       value: 1
       objectReference: {fileID: 0}
@@ -2699,19 +2941,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[1].maxShape
-      value: 0.001
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[1].minShape
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[2].maxShape
-      value: 0.01
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[3].maxShape
-      value: 0.01
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[4].maxShape
-      value: 0.01
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[5].maxShape
@@ -2743,7 +2989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[0].maxShape
-      value: 0.01
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[10].fracPos
@@ -2767,7 +3013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[2].maxShape
-      value: 0.01
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[3].maxShape
@@ -2983,7 +3229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[3].blendIndex
-      value: 28
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[0].expData.controllerVars.Array.data[4].blendIndex
@@ -3011,23 +3257,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[0].blendIndex
-      value: 2
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[1].blendIndex
-      value: 23
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[2].blendIndex
-      value: 27
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[3].blendIndex
-      value: 28
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[4].blendIndex
-      value: 38
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[5].blendIndex
@@ -3059,7 +3305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[2].blendIndex
-      value: 27
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1780452016909964628, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[3].blendIndex
@@ -3573,6 +3819,14 @@ PrefabInstance:
       propertyPath: visemes.Array.data[4].expData.components.Array.data[10].useOffsetFollow
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2039049405945661548, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[0]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039049405945661548, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[10]'
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2283676144428560487, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3617,14 +3871,65 @@ PrefabInstance:
       propertyPath: m_Name
       value: Avaturn_T_Clothed_Haze_Animated_LipSync
       objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[3]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[4]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[8]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[14]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[15]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[16]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[17]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[18]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026848878925408928, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[19]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6669072440757202741, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[0]'
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3989076158750249410, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 99390912}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2606611179858229014, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7766716919215092038}
+    - targetCorrespondingSourceObject: {fileID: 2606611179858229014, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7766716919215092039}
   m_SourcePrefab: {fileID: 100100000, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+--- !u!4 &5573218103044583246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2283676144428560487, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+  m_PrefabInstance: {fileID: 4995379924091011777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6238786417295022605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2606611179858229014, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
@@ -3641,6 +3946,11 @@ MonoBehaviour:
   m_Script: {fileID: 2069102741, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SALSA-LipSync.dll::CrazyMinnow.SALSA.QueueProcessor
+--- !u!4 &7237969192739273948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6530058928801442193, guid: 34c06e80c971248bdbeb4e227d50f2da, type: 3}
+  m_PrefabInstance: {fileID: 4995379924091011777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &7766716919215092038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3680,7 +3990,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 1
+        inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -3702,7 +4012,51 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      - name: jawOpen_T
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.25
+        durationHold: 0.1
+        durationOff: 0.2
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      - name: mouthOpen_T
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.25
+        durationHold: 0.1
+        durationOff: 0.2
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -3731,7 +4085,7 @@ MonoBehaviour:
         smr: {fileID: 4979917825698533206}
         blendIndex: 49
         minShape: 0
-        maxShape: 0.0011999999
+        maxShape: 0.0018000001
         eyeGizmo: {fileID: 0}
         eventSender: {fileID: 0}
         animator: {fileID: 0}
@@ -3772,7 +4126,7 @@ MonoBehaviour:
         smr: {fileID: 4979917825698533206}
         blendIndex: 0
         minShape: 0
-        maxShape: 0.0011
+        maxShape: 0.0018000001
         eyeGizmo: {fileID: 0}
         eventSender: {fileID: 0}
         animator: {fileID: 0}
@@ -3790,7 +4144,89 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 1
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 137383739312548275}
+        blendIndex: 16
+        minShape: 0
+        maxShape: 0.0018000001
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 137383739312548275}
+        blendIndex: 0
+        minShape: 0
+        maxShape: 0.0018000001
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 0
       previewDisplayMode: 0
       collectionExpand: 0
     isRandomEmote: 0
@@ -4278,6 +4714,275 @@ MonoBehaviour:
     isAlwaysEmphasisEmote: 0
     hasBeenFired: 0
     frac: 1
+  - expData:
+      name: Excited Talk
+      components:
+      - name: jawForward
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.25
+        durationHold: 0.1
+        durationOff: 0.2
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      - name: mouthUpperUpLeft
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.25
+        durationHold: 0.1
+        durationOff: 0.2
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      - name: mouthUpperUpRight
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.25
+        durationHold: 0.1
+        durationOff: 0.2
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      - name: jawForward_T
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.25
+        durationHold: 0.1
+        durationOff: 0.2
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      controllerVars:
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 4979917825698533206}
+        blendIndex: 48
+        minShape: 0.001
+        maxShape: 0.003
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 4979917825698533206}
+        blendIndex: 40
+        minShape: 0.001
+        maxShape: 0.003
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 4979917825698533206}
+        blendIndex: 41
+        minShape: 0.001
+        maxShape: 0.003
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 137383739312548275}
+        blendIndex: 17
+        minShape: 0.001
+        maxShape: 0.003
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 0
+      previewDisplayMode: 0
+      collectionExpand: 0
+    isRandomEmote: 0
+    isLipsyncEmphasisEmote: 1
+    isRepeaterEmote: 0
+    repeaterDelay: 0
+    startDelay: 0
+    isPersistent: 0
+    isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 0
+    hasBeenFired: 0
+    frac: 1
   useRandomEmotes: 0
   isChancePerEmote: 1
   numRandomEmotesPerCycle: 0
@@ -4292,11 +4997,356 @@ MonoBehaviour:
   randomHoldDurationMax: 0.5
   configReady: 1
   warnOnNullRefs: 1
-  inspSalsaLinked: 1
+  inspSalsaLinked: 0
   inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 1
   inspCollectionDisplayMode: 0
+--- !u!114 &7766716919215092039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6238786417295022605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 974247159, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SALSA-LipSync.dll::CrazyMinnow.SALSA.Eyes
+  inspStateFoldoutReferences: 1
+  inspStateFoldoutHeads: 1
+  inspStateFoldoutHeadProps: 1
+  inspStateFoldoutAnimBones: 0
+  inspStateFoldoutEyes: 0
+  inspStateFoldoutEyeProps: 1
+  inspStateFoldoutEyelids: 1
+  inspStateFoldoutEyelidBlinkProps: 1
+  inspStateFoldoutEyelidTrackProps: 1
+  drawEyeBoneCaptureControls: 0
+  drawBlinkBoneCaptureControls: 0
+  drawTrackBoneCaputreControls: 0
+  headIsRoot: 0
+  configReadyHead: 1
+  configReadyEye: 1
+  configReadyBlink: 1
+  configReadyTrack: 1
+  characterRoot: {fileID: 5573218103044583246}
+  queueProcessor: {fileID: 6532263518641877452}
+  lookTarget: {fileID: 0}
+  useAffinity: 0
+  affinityPercentage: 0.75
+  hasAffinity: 1
+  affinityTimerRange: {x: 2, y: 5}
+  updateDelay: 0.07
+  useSpriteFlipping: 0
+  flipType: 0
+  flipScale: {fileID: 0}
+  flipSprite: {fileID: 0}
+  parentRandTargets: 0
+  showSceneGizmos: 1
+  warnOnNullRefs: 1
+  flipState: 0
+  animCancel: []
+  headEnabled: 1
+  headTemplate: 1
+  head2DProcessing: 0
+  headTargetOffset: {x: 0, y: 0, z: 0}
+  headClamp: {x: 70, y: 140, z: 45}
+  headFacingCamera: 0
+  headRandom: 1
+  headRandomFov: {x: 5, y: 45, z: 22.5}
+  headRandFovHalf: {x: 0, y: 0, z: 0}
+  headRandTimerRange: {x: 5, y: 10}
+  headRandTimer: 0
+  headUseDistExtents: 0
+  headRandDistRange: {x: 1, y: 1}
+  updateHeadFwdCenterRefs: 1
+  headTargetRadius: 0.01
+  headBones: []
+  headRefsFwd: []
+  headRefsFix: []
+  headRefCenter: {fileID: 0}
+  newHeadDirs: []
+  headTarget: {fileID: 0}
+  headTarget2D: {x: 0, y: 0, z: 0}
+  heads:
+  - expData:
+      name: head
+      components:
+      - name: head
+        controlType: 1
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.75
+        durationHold: 0
+        durationOff: 0
+        isSmoothDisable: 0
+        isPersistent: 1
+        expressionType: 2
+        easing: 4
+        expressionHandler: 0
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 1
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      controllerVars:
+      - bone: {fileID: 4266555352291074041}
+        baseTform:
+          pos: {x: -9.646189e-16, y: 0.12655327, z: 0.0000000140195615}
+          rot: {x: -0.07936208, y: -0.000000042027576, z: -0.000000003406493, w: 0.99684584}
+          scale: {x: 1, y: 1, z: 1}
+        startTform:
+          pos: {x: -9.646189e-16, y: 0.12655327, z: 0.0000000140195615}
+          rot: {x: -0.07936208, y: -0.000000042027576, z: -0.000000003406493, w: 0.99684584}
+          scale: {x: 1, y: 1, z: 1}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 1}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 0
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 1
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 0}
+        blendIndex: 0
+        minShape: 0
+        maxShape: 1
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 1
+      previewDisplayMode: 0
+      collectionExpand: 0
+    gizmo: {fileID: 0}
+    referenceIdx: 0
+  headTarget2DDot: 0
+  eyeEnabled: 1
+  eyeTemplate: 1
+  sectorCount: 3
+  prevSectorCount: 0
+  eyeControlType: 1
+  forwardSectorRadius: 1
+  eye2DProcessing: 0
+  eye2DDepth: 1
+  eyePosPercentX: 0
+  eyePosPercentY: 0
+  useEyeShapes: 0
+  useEyeSectors: 0
+  eyeClamp: {x: 25, y: 45, z: 0}
+  eyeRandom: 1
+  eyeRandomFov: {x: 2.5, y: 5, z: 10}
+  eyeRandTrackFov: {x: 0.1, y: 0.05}
+  eyeRandTrackFovAffinity: {x: 0.2, y: 0.1}
+  eyeRandTimerRange: {x: 0.25, y: 1}
+  eyeRandTimer: 0
+  eyeUseDistExtents: 0
+  eyeRandDistRange: {x: 1, y: 1}
+  eyeTargetRadius: 0.01
+  eyeBones: []
+  eyeRefsFwd: []
+  eyeRefsFix: []
+  eyeRefCenter: {fileID: 0}
+  newEyeDirs: []
+  eyeTarget: {fileID: 0}
+  eyeTarget2D: {x: 0, y: 0, z: 0}
+  eyes:
+  - expData:
+      name: eyeL
+      components:
+      - name: eyeL
+        controlType: 1
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.1
+        durationHold: 0
+        durationOff: 0
+        isSmoothDisable: 0
+        isPersistent: 1
+        expressionType: 3
+        easing: 4
+        expressionHandler: 0
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      controllerVars:
+      - bone: {fileID: 7237969192739273948}
+        baseTform:
+          pos: {x: -0.031475037, y: 0.07796417, z: 0.0705624}
+          rot: {x: 0.0019602112, y: -0.0000009822536, z: 0.0006285426, w: 0.9999979}
+          scale: {x: 1, y: 1, z: 1}
+        startTform:
+          pos: {x: -0.031475037, y: 0.07796417, z: 0.0705624}
+          rot: {x: 0.0019602112, y: -0.0000009822536, z: 0.0006285426, w: 0.9999979}
+          scale: {x: 1, y: 1, z: 1}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 1}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 0
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 1
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 0}
+        blendIndex: 0
+        minShape: 0
+        maxShape: 1
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 1
+      previewDisplayMode: 0
+      collectionExpand: 0
+    gizmo: {fileID: 0}
+    referenceIdx: 0
+  - expData:
+      name: eyeR
+      components:
+      - name: eyeR
+        controlType: 1
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.1
+        durationHold: 0
+        durationOff: 0
+        isSmoothDisable: 0
+        isPersistent: 1
+        expressionType: 3
+        easing: 4
+        expressionHandler: 0
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 0
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      controllerVars:
+      - bone: {fileID: 2562103950333594459}
+        baseTform:
+          pos: {x: 0.03208935, y: 0.078318074, z: 0.07236462}
+          rot: {x: 0.00082273374, y: -0.00000050887485, z: 0.00032546368, w: 0.99999964}
+          scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+        startTform:
+          pos: {x: 0.03208935, y: 0.078318074, z: 0.07236462}
+          rot: {x: 0.00082273374, y: -0.00000050887485, z: 0.00032546368, w: 0.99999964}
+          scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 1}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 0
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 1
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 0}
+        blendIndex: 0
+        minShape: 0
+        maxShape: 1
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 1
+      previewDisplayMode: 0
+      collectionExpand: 0
+    gizmo: {fileID: 0}
+    referenceIdx: 0
+  eyeExpIndex: 0
+  eyeExpNames:
+  - eyeL
+  - eyeR
+  eyeExpRend: {fileID: 0}
+  eyeExpRendItemCount: 2
+  eyeExpRendIsNullOrSmr: 1
+  blinkEnabled: 1
+  eyelidTemplate: 0
+  eyelidSelection: 0
+  eyelidControlType: 0
+  eyelid2DProcessing: 0
+  blinkOn: 0
+  blinkHold: 0
+  blinkOff: 0
+  blinkRandom: 1
+  blinkRandTimerRange: {x: 0.5, y: 5}
+  blinkRandTimer: 0
+  eyelidPercentEyes: 0.5
+  trackPercent: 0
+  blinklids: []
+  eyelidExpIndex: 0
+  eyelidExpNames: []
+  eyelidExpRend: {fileID: 0}
+  eyelidExpRendItemCount: 1
+  eyelidExpRendIsNullOrSmr: 1
+  trackEnabled: 1
+  trackBones: []
+  tracklids: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
